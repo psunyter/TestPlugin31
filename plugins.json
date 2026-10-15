@@ -1,10 +1,10 @@
 [
     {
         "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
-        "fileHash": "sha256-73a194c0a709ae0f29c4d31dd4042a9fd8ed4f800c2f0330cca41d559b620855",
+        "fileHash": "sha256-9e5e035478eb75e6ff2317637c26e7ddbd68bca33d04f828e4a9d187bc135806",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
-        "fileSize": 12553,
+        "fileSize": 11428,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -41,10 +41,10 @@
     },
     {
         "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
-        "fileHash": "sha256-e8b2a95878e25f74ccea6d3df8ba69ac94b927deb146346382b85c1e259db11e",
+        "fileHash": "sha256-7e852dbf0495517e576c4d0611ca553b13700ca05197b58ec6728622929a84c2",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
-        "fileSize": 17138,
+        "fileSize": 16820,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -61,10 +61,10 @@
     },
     {
         "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
-        "fileHash": "sha256-653fb70cfc684a29175079632e0c5cb9d050ad57bebeef36cf805a5c506f33c0",
+        "fileHash": "sha256-e6578eb44274be4ab689646a9a5704b2eda29593a3d63216f8aad2e4f585ee81",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
-        "fileSize": 14169,
+        "fileSize": 14486,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -81,10 +81,10 @@
     },
     {
         "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
-        "fileHash": "sha256-6df16fda7e3fae468eb031bda91b4d9d19ccca459741f8a1f8bacdd0241e266f",
+        "fileHash": "sha256-f7fd04b07e84593262c7cebc67835138f74ae70f140407178cb2a422a35576db",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
-        "fileSize": 13336,
+        "fileSize": 13039,
         "status": 1,
         "language": "tr",
         "authors": [
