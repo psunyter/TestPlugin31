@@ -1,0 +1,124 @@
+[
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-73a194c0a709ae0f29c4d31dd4042a9fd8ed4f800c2f0330cca41d559b620855",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
+        "fileSize": 12553,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "Sahin"
+        ],
+        "tvTypes": [
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "Animpow",
+        "description": "Animpow T\u00fcrk\u00e7e Altyaz\u0131l\u0131 Anime Sa\u011flay\u0131c\u0131s\u0131",
+        "url": "https://raw.githubusercontent.com/psunyter/TestPlugin31/builds/Animpow.cs3",
+        "name": "Animpow"
+    },
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-90b8e83805f54e371943f31cdb5b69b2b46ff05209b7a5463256ba6782f03e96",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
+        "fileSize": 19886,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "Sahin"
+        ],
+        "tvTypes": [
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "Anizium",
+        "description": "Anizium Anime Sa\u011flay\u0131c\u0131s\u0131",
+        "url": "https://raw.githubusercontent.com/psunyter/TestPlugin31/builds/Anizium.cs3",
+        "name": "Anizium"
+    },
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-e8b2a95878e25f74ccea6d3df8ba69ac94b927deb146346382b85c1e259db11e",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
+        "fileSize": 17138,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "Sahin"
+        ],
+        "tvTypes": [
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "Anizume",
+        "description": "Anizume Anime Sa\u011flay\u0131c\u0131s\u0131",
+        "url": "https://raw.githubusercontent.com/psunyter/TestPlugin31/builds/Anizume.cs3",
+        "name": "Anizume"
+    },
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-653fb70cfc684a29175079632e0c5cb9d050ad57bebeef36cf805a5c506f33c0",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
+        "fileSize": 14169,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "Sahin"
+        ],
+        "tvTypes": [
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Dizibox",
+        "description": "Dizibox Yabanc\u0131 Dizi Sa\u011flay\u0131c\u0131s\u0131",
+        "url": "https://raw.githubusercontent.com/psunyter/TestPlugin31/builds/Dizibox.cs3",
+        "name": "Dizibox"
+    },
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-6df16fda7e3fae468eb031bda91b4d9d19ccca459741f8a1f8bacdd0241e266f",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
+        "fileSize": 13336,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "Sahin"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "HdFilmCehennemi",
+        "description": "HdFilmCehennemi Film ve Dizi Sa\u011flay\u0131c\u0131s\u0131",
+        "url": "https://raw.githubusercontent.com/psunyter/TestPlugin31/builds/HdFilmCehennemi.cs3",
+        "name": "HdFilmCehennemi"
+    },
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-a8dd48398785f1fff5157dc43d077355d1238b5c3740a182927a1a405481adc3",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/psunyter/TestPlugin31",
+        "fileSize": 12351,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "Sahin"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 1,
+        "internalName": "Izle720p",
+        "description": "720pizle Film ve Dizi Sa\u011flay\u0131c\u0131s\u0131",
+        "url": "https://raw.githubusercontent.com/psunyter/TestPlugin31/builds/Izle720p.cs3",
+        "name": "Izle720p"
+    }
+]
