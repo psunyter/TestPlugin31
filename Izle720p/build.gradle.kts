@@ -1,0 +1,21 @@
+plugins {
+    id("com.android.library")
+    id("kotlin-android")
+    id("com.lagradost.cloudstream3.gradle")
+}
+
+version = 1
+
+cloudstream {
+    description = "720pizle Film ve Dizi Sağlayıcısı"
+    authors = listOf("Sahin")
+    status = 1
+    tvTypes = listOf("Movie", "TvSeries")
+    requiresResources = false
+    language = "tr"
+    iconUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png"
+}
+
+dependencies {
+    implementation(kotlin("stdlib"))
+}
