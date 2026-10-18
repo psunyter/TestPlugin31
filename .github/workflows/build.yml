@@ -1,18 +1,10 @@
-name: Build
-
-concurrency:
-  group: "build"
-  cancel-in-progress: true
+name: Build Plugins
 
 on:
   push:
     branches:
       - master
       - main
-    paths-ignore:
-      - '*.md'
-      - '.github/workflows/**'
-      - 'repo.json'
 
 permissions:
   contents: write
@@ -21,53 +13,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          path: "src"
 
-      - name: Checkout builds
-        uses: actions/checkout@v4
-        with:
-          ref: "builds"
-          path: "builds"
-        continue-on-error: true
-
-      - name: Clean old builds
-        run: rm -f $GITHUB_WORKSPACE/builds/*.cs3 || true
-
-      - name: Setup JDK 21
-        uses: actions/setup-java@v4
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-
-      - name: Setup JDK 17
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
 
-      - name: Build Plugins
-        env:
-          JAVA_HOME: ${{ env.JAVA_HOME_21_X64 }}
-        run: |
-          cd $GITHUB_WORKSPACE/src
-          chmod +x gradlew
-          ./gradlew make makePluginsJson
-          mkdir -p $GITHUB_WORKSPACE/builds
-          cp **/build/*.cs3 $GITHUB_WORKSPACE/builds || true
-          cp build/plugins.json $GITHUB_WORKSPACE/builds || true
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
-      - name: Push builds
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cd $GITHUB_WORKSPACE/builds
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add .
-          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
-          git commit --amend -m "Build $GITHUB_SHA" || git commit -m "Build $GITHUB_SHA" || exit 0
-          git push origin builds --force || git checkout --orphan builds && git rm -rf . && cp -r $GITHUB_WORKSPACE/src/builds/. . || true
+      - name: Build Plugins & Manifest
+        run: ./gradlew make makePluginsJson
+
+      - name: Deploy to Builds Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: builds
+          publish_dir: build
+          force_orphan: true
+          commit_message: "Auto-build plugins [skip ci]"
+          user_name: "GitHub Actions"
+          user_email: "actions@github.com"
